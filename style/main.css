@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+.intro{
+    background: url(../img/bg.jpg) no-repeat center top / cover;
+    width: 100%;
+    background-color: #16151B;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.nav__link{
+    margin-right: 46px;
+    color: #fff;
+}
+.nav__link:hover{
+    color:#fff;
+    text-decoration: none;
+    background: url(../img/svg/line.svg) no-repeat bottom;
+}
+@media(max-width:)(min-width:495px){
+    .intro__content{
+        width: 450px;
+    }
+}
+.section__name{
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.intro__title{
+    margin-top: 32px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 65px;
+    margin-bottom: 28px;
+}
+@media(max-width:575px){
+    .intro__title{
+        font-size: 40px;
+        line-height: 57px;
+    }
+}
+@media(max-width:430px){
+    .intro__title{
+        font-size: 35px;
+        line-height: 47px;
+    }
+}
+@media(max-width:378px){
+    .intro__title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+.text{
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+}
+.advantages__info{
+    margin-bottom: 76px;
+}
+.advantages_card{
+    margin-bottom: 40px;
+}
+.advantages_card:last-child{
+    margin: 0px;
+}
+.buttons{
+    margin-top: 63px;
+}
+@media(max-width:374px){
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.intro__button1{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    width: 160px;
+    height: 50px;
+    box-shadow: 0 0 3px rgba(3, 3, 3, 0.1);
+    background-color: #008ed6;
+    border-radius: 3px;
+    border: 0;
+}
+.intro__button2{
+    margin-left: 20px;
+    width: 160px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: transparent;
+    border: solid 1px #454449;
+    color: #fff;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.advantages__name{
+    margin-top: 65px;
+    text-align: center;
+}
+.advantages__title{
+    margin-bottom: 35px;
+}
+.advantages__info{
+    margin-top: 74px;
+}
+.advantages_card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.advantages__title{
+    color: #1a1a1a;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 35px; 
+    margin-bottom: 23px;
+}
+.hr{
+    width: 100%;
+}
+.about{
+    text-align: left;
+}
+.iphone_img{
+    margin-top: 66px;
+}
+.about__content{
+    margin-top: 119px;
+}
+.about__line{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about__info{
+    margin-top: 42px;
+}
+.about__info-img{
+    margin-bottom: 19px;
+}
+.about__content-group1{
+    background: url(../img/svg/Cup.svg)no-repeat left center;
+}
+.about__content-group2{
+    background: url(../img/svg/mouse.svg)no-repeat left center;
+}
+.about__content-group3{
+    background: url(../img/svg/Energy.svg)no-repeat left center;
+}
+.about__content-group4{
+    background: url(../img/svg/Speedometer.svg)no-repeat left center;
+}
+.about__info-text{
+    margin-left: 24px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.iphone_img{
+    margin-bottom: 19px;
+}
+.section__super_easy{
+    margin-top: 151px;
+    background:#F2F2F2;
+    margin-top: 151px;
+}
+.section__super_easy-line{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section__super_easy-name{
+    margin-top: 151px;
+}
+.iphone__5{
+    margin-top: 33px;
+    margin-bottom: 19px;
+}
+.section__pricings_plans-name{
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 71px;
+}
+.section__pricings_plans{
+    background: url(../img/bg__section2.png)#1A191E no-repeat center top / cover;
+    padding-bottom: 50px;
+}
+.section__pricings_plans-title{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    }
+.comment{
+    color: #ffffff;
+    font-family: "Source Sans Pro - It";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.name{
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    color:#fff;
+}
+.about__people{
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    line-height: 26px;
+    color:#fff;
+    font-size: 16px;
+}
+.photo{
+    margin-top: 26px;
+}
+.section__pricings_plans-content{
+    padding-bottom: 64px;
+}
+.section_like_what_you_see__groups{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;padding-top: 60px;
+}
+.section_like_what_you_see{
+    background-color: #15141a;
+}
+.section_like_what_you_see__1-text1{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.section_like_what_you_see__1-text2{
+    font-weight: 300;
+    color: #fff;
+    font-size: 36px;
+}
+.section_like_what_you_see__2-button1{
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    color: #fff;
+    border:1px solid #2C2B31;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.section_like_what_you_see__2-button2{
+    width: 160px;
+    height: 50px;
+    box-shadow: 0 0 3px rgba(3, 3, 3, 0.1);
+    background-color: #008ed6;
+    border: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+@media(max-width:770px){
+    .iphone_img,.iphone__5{
+        display: none;
+    }
+    .section__super_easy__margin{
+        padding-bottom: 151px;
+    }
+
+}
+@media(max-width:1201px){
+    .photo{
+        margin-bottom: 50px;
+    }
+    .photo:last-child{
+        margin:0;
+    }
+    .section_like_what_you_see__2-button1{
+        margin-bottom: 20px;
+    }
+}
+.header{
+    background-color: #16151B;
+    position: fixed;
+}
+.nav__link:last-child{
+    margin: 0;
+}
+.burger__menu{
+    z-index: 15;
+}
+.header{
+    z-index: 20;
+    padding-bottom: 20px;
+}
+.mobile-nav__inner{
+    position: absolute;
+    background-color: rgb(22,21,26,0.95);
+    right:-100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 14;
+    transition: transform .3s ease-in;
+    display: none;
+}
+.mobile-nav__inner__active{
+    transform: translateX(-100%);
+}
+@media(min-width:769px){
+    .burger__menu{
+        display: none;
+    }
+}
+@media(max-width:769px){
+    .burger__menu{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .nav__link:last-child{
+        display: block;
+    }
+    body.lock{
+        overflow: hidden;
+    }
+    .mobile-nav__inner{
+        display: block;
+    }
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+.mobile__nav-item{
+    display: block;
+    margin-bottom: 10px;
+}
+.mobile__nav{
+    text-align: center;
+    margin-top: 110px;
+}
+.mobile__nav_link{
+    margin-top: 60px;
+    color: #fffefe;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 58px;
+}
+.mobile__nav_link:hover{
+    color: #fff;
+    text-decoration: none;
+    background: url(../img/svg/line.svg) no-repeat center bottom;
+}
+html{
+    scroll-behavior: smooth;
+}
