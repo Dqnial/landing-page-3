@@ -32,11 +32,7 @@ button:focus {
     text-decoration: none;
     background: url(../img/svg/line.svg) no-repeat bottom;
 }
-@media(max-width:)(min-width:495px){
-    .intro__content{
-        width: 450px;
-    }
-}
+
 .section__name{
     color: #008ed6;
     font-size: 14px;
@@ -53,24 +49,7 @@ button:focus {
     line-height: 65px;
     margin-bottom: 28px;
 }
-@media(max-width:575px){
-    .intro__title{
-        font-size: 40px;
-        line-height: 57px;
-    }
-}
-@media(max-width:430px){
-    .intro__title{
-        font-size: 35px;
-        line-height: 47px;
-    }
-}
-@media(max-width:378px){
-    .intro__title{
-        font-size: 30px;
-        line-height: 40px;
-    }
-}
+
 .text{
     color: #999999;
     font-size: 18px;
@@ -88,12 +67,7 @@ button:focus {
 .buttons{
     margin-top: 63px;
 }
-@media(max-width:374px){
-    .buttons{
-        display: flex;
-        justify-content: space-between;
-    }
-}
+
 .intro__button1{
     color: #ffffff;
     font-size: 14px;
@@ -294,26 +268,7 @@ button:focus {
     line-height: 48px;
     text-transform: uppercase;
 }
-@media(max-width:770px){
-    .iphone_img,.iphone__5{
-        display: none;
-    }
-    .section__super_easy__margin{
-        padding-bottom: 151px;
-    }
 
-}
-@media(max-width:1201px){
-    .photo{
-        margin-bottom: 50px;
-    }
-    .photo:last-child{
-        margin:0;
-    }
-    .section_like_what_you_see__2-button1{
-        margin-bottom: 20px;
-    }
-}
 .header{
     background-color: #16151B;
     position: fixed;
@@ -341,28 +296,7 @@ button:focus {
 .mobile-nav__inner__active{
     transform: translateX(-100%);
 }
-@media(min-width:769px){
-    .burger__menu{
-        display: none;
-    }
-}
-@media(max-width:769px){
-    .burger__menu{
-        display: block;
-    }
-    .nav{
-        display: none;
-    }
-    .nav__link:last-child{
-        display: block;
-    }
-    body.lock{
-        overflow: hidden;
-    }
-    .mobile-nav__inner{
-        display: block;
-    }
-}
+
 ul,li{
     margin: 0;
     padding: 0;
@@ -389,4 +323,79 @@ ul,li{
 }
 html{
     scroll-behavior: smooth;
+}
+
+.advantages_card img{
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+@media(max-width:374px){
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:575px){
+    .intro__title{
+        font-size: 40px;
+        line-height: 57px;
+    }
+}
+@media(max-width:430px){
+    .intro__title{
+        font-size: 35px;
+        line-height: 47px;
+    }
+}
+@media(max-width:378px){
+    .intro__title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media(min-width:769px){
+    .burger__menu{
+        display: none;
+    }
+}
+@media(max-width:769px){
+    .burger__menu{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .nav__link:last-child{
+        display: block;
+    }
+    body.lock{
+        overflow: hidden;
+    }
+    .mobile-nav__inner{
+        display: block;
+    }
+}
+
+@media(max-width:770px){
+    .iphone_img,.iphone__5{
+        display: none;
+    }
+    .section__super_easy__margin{
+        padding-bottom: 151px;
+    }
+
+}
+@media(max-width:1201px){
+    .photo{
+        margin-bottom: 50px;
+    }
+    .photo:last-child{
+        margin:0;
+    }
+    .section_like_what_you_see__2-button1{
+        margin-bottom: 20px;
+    }
 }
